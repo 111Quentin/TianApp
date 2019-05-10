@@ -1,0 +1,30 @@
+a {
+     text-decoration: none;
+ }
+
+li {
+    list-style: none;
+}
+/*主体部分代码*/
+.content{
+    margin-top: 14px;
+}
+
+.radio{
+    padding-left: 13px;
+}
+
+
+
+.res{
+    margin-top: 25px;
+    text-align: right;
+}
+
+.res span{
+    position: relative;
+    top: 20px;
+    margin-right: 30px;
+    font-size: 18px;
+}
+/*主体部分代码*/

@@ -1,0 +1,208 @@
+*{
+    text-decoration: none;
+    margin:0;
+    padding:0;
+}
+a:link{
+    text-decoration: none;
+}
+
+#bg{
+    width: 100%;
+    position: absolute;
+}
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-bottom: 10%;
+}
+
+li{
+    list-style: none;
+}
+
+.title {
+    background-color: rgb(243, 246, 248) !important;
+    height: 61px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+.title span{
+    float: left;
+    font-size: 32px;
+    margin-left: 23px;
+    margin-top: 10px;
+    color: rgb(51, 51, 51);
+}
+.title .left{
+    float: left;
+}
+.title .right{
+    float: right;
+    padding-right: 5px;
+}
+.title h3{
+    color: rgb(51, 51, 51);
+}
+
+.clear{
+    clear: both;
+}
+
+.content{
+    width: 100%;
+    margin-top: 59px;
+    padding-bottom: 1px;
+    margin-bottom: 22px;
+}
+.content .row{
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 10px;
+}
+.row .userimg{
+    float: left;
+    margin-top: 21px;
+    margin-left: 25px;
+    display: inline;
+}
+.row .intro{
+    float: left;
+    margin-left: 12px;
+    display: inline;
+    margin-top: 12px;
+}
+.intro h3{
+    line-height: 30px;
+    font-size: 20px;
+}
+.intro p{
+    padding-top: 14px;
+}
+.content .article{
+    font-size: 18px;
+    /*width: 410px;*/
+    margin-top: 20px;
+    /*margin-left: 25px;*/
+    overflow: hidden;
+    text-align: left;
+}
+.article p{
+    padding-left: 33px;
+    font-size: 17px;
+    color: rgb(51, 51, 51);
+}
+.article .files{
+    text-align: center;
+}
+
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 2px solid #eee;
+}
+
+/* 评论专区 */
+.comlist{
+   margin-top: 25px;
+}
+.comlist .comtitle{
+    text-align: left;
+    padding-left: 49px;
+}
+
+.comtitle h3{
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    display: inline;
+}
+.comtitle sapn {
+    margin-left: 5px;
+    font-size: 20px;
+}
+.comlist .comrow{
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 10px;
+}
+.comrow .userimg{
+    float: left;
+    margin-top: 21px;
+    margin-left: 25px;
+    display: inline;
+}
+.comrow .intro{
+    float: left;
+    margin-left: 12px;
+    display: inline;
+    margin-top: 12px;
+}
+
+
+.comicon{
+    float: left;
+    margin-left: -15px;
+    display: inline;
+    margin-top: 41px;
+}
+.comicon span{
+    font-size: 20px;
+}
+.comcontent p{
+    margin-left: 33px;
+    font-size: 18px;
+}
+.replay{
+    width: 18em;
+    background-color: rgb(243, 245, 247);
+    border-radius: 9px;
+    margin-left: 33px;
+}
+.replay p{
+    width: 100%;
+    margin-left: 13px;
+    padding: 8px 0px;
+}
+
+/* 输入框专区 */
+.cominput{
+    bottom: 21px;
+    position: fixed;
+    width: 100%;
+    height: 25px;
+    left: 0;
+    z-index: 9999999;
+}
+
+
+
+/* icon专区 */
+.icon{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    height: 50px;
+}
+.icon .icon1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 30%;
+    display: inline-block;
+}
+.icon1 a{
+    color: rgb(127, 127, 127);
+    text-decoration: none;
+}
+.icon1 p{
+    font-size: 16px;
+}
+
+
+

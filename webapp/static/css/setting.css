@@ -1,0 +1,16 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+/*主体部分代码*/
+.content{
+    text-align: left;
+    margin-top:45px;
+    margin-bottom: 20px;
+}
+
+
+/*主体部分代码*/

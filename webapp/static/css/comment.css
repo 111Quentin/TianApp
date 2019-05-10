@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    /*color: #31343B;*/
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.cmt-container{
+    text-align: center;
+    margin-top: 44px;
+}
+
+.cmt-container h3 {
+    font-size: 18px;
+}
+.cmt-container textarea {
+    width: 396px;
+    font-size: 14px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.cmt-container .cmt-list {
+    margin: 5px 0;
+}
+.cmt-container .cmt-list .cmt-item {
+    font-size: 13px;
+}
+.cmt-container .cmt-list .cmt-item .cmt-title {
+    line-height: 30px;
+    background-color: #ccc;
+}
+.cmt-container .cmt-list .cmt-item .cmt-body {
+    line-height: 35px;
+    text-indent: 2em;
+}
+
