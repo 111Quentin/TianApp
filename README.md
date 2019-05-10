@@ -41,7 +41,7 @@
 
 ## APP端
 ![Image text](http://111.230.131.146/show/02.png)
-![Image text](http://111.230.131.146/show/03.png)
+
 
 
 ## APP下载
